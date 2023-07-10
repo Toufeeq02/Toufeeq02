@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)file:///C:/Users/toufeeq/Desktop/Html-css-course/Registration%20Foam.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body> 
+   <style>
+    body{
+        background:  #D4Fc7B; 
+        font-family: 'muli',sans-serif; 
+    }
+    .s1{
+        position:relative;
+        left:10%;
+    }
+    .s1 input[type=text]{
+        width: 340px;
+        height:27px;
+        background-color: rgb(244, 244, 244);
+        font-size: small;
+        cursor: pointer;
+        border-radius: 2px;
+         border:solid;
+         border-color:rgb(247, 247, 32);
+    }
+    .s1 input[type=text]:hover{
+        background-color: #e4e822;
+        color:black(204, 228, 28);
+        border-color:rgb(226, 226, 3);
+    }
+    .s1 input[type=email]:hover{
+        background-color: rgb(253, 253, 56);
+    }
+    .s1 input[type=number]{
+        width: 340px;
+        height:27px;
+        background-color: white;
+        font-size: small;
+        cursor: pointer;
+        border-radius: 2px;
+        border: solid;
+        border-color:yellow;   
+    }
+    .s1 input[type=email]{
+        width: 340px;
+        height:27px;
+        background-color: white;
+        font-size: small;
+        cursor: pointer;
+        border-radius: 2px;
+        border: solid;
+        border-color:yellow;
+    }
+    .s3{
+        position: absolute;
+       top:50%;
+        left:25%;
+        font-size: small;
+       max-width: 520px;
+       width:400px;
+       background:#99E5a2;
+       padding:25px;
+       margin-top:10px;
+       border-radius: 5px;
+       margin-bottom: 100px;
+        box-shadow: 10px 10px 10px white
+
+    }
+    .kh{
+        position: relative;
+        left:10%;
+        width: 340px;
+        height:27px;
+        background-color: rgb(5, 232, 58);
+        font-size: small;
+        cursor: pointer;
+        color:white;
+        border-radius: 2px;
+        border: none;
+    }
+   </style>
+    <form><div class="s3">
+        <center><b><h2>Registration Form</h2></b></center>
+    <b> <hr color="black"></b>
+        <p class="s1">
+            <label for="First name">First Name:</label><br>
+            <input type="text" name="First name" id="First name" placeholder="First Name">
+        <br>
+        Middle Name:<br><input type="text" name="Middle" placeholder="Middle Name"><br>
+        Last Name:<br><input type="text" name="last name" placeholder="Last Name"><br>
+        Father Name:<br><input type="text" name="Father name" placeholder="Father Name"><br>
+        Gender:<br>
+       <input type="radio" value="Male">
+       <label> Male</label>
+       <input type="radio" value="Female"><label>Female</label>
+       <input type="radio" value="unknown"><label>unknown</label><br>
+    Phone:<br>
+    <input type="number" placeholder="+91">
+    <br>
+Email:<br>
+<input type="email" placeholder="Email">
+<br>
+Address: <br> <input type="text" placeholder="Address">
+</p>
+    
+    <button class="kh">
+        submit
+    </button>
+    <br><br>
+    <button class="kh">
+        Reset
+    </button></div></form>
+
+</body></html>
